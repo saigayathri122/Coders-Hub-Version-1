@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded data
 app.use(cors()); // Enable CORS for cross-origin requests
 
 // MongoDB Atlas connection
-const MONGO_URI = "mongodb+srv://sai:Sai123@Cluster0.bylyn.mongodb.net/mini?retryWrites=true&w=majority";
+const MONGO_URI = "mongo_db_url";
 
 
 mongoose
