@@ -1,0 +1,28 @@
+.bor {
+    text-align: center;
+    padding: 20px;
+}
+#title {
+    font-size: 40px;
+    font-family: cursive;
+    color: rebeccapurple;
+    transition: transform 0.3s ease-in-out;
+}
+#title:hover {
+    transform: scale(1.1);
+}
+.row {
+    display: flex;
+    flex: 0 0 auto; 
+    justify-content: center;
+    margin: 20px 0;
+    height: 200px;
+}
+.cent {
+    height: 100px;
+}
+
+.ele {
+    margin: 10px;
+}
+  

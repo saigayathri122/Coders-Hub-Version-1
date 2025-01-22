@@ -1,0 +1,213 @@
+<style jsx>{`
+
+          .btn-add {
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          width: 60px;
+          height: 60px;
+          background-color: #5a189a;
+          color: white;
+          border: none;
+          border-radius: 50%;
+          font-size: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          }
+
+          .btn-add:hover {
+          background-color: #7b2cbf;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          }
+          .content .timestamp {
+          margin-top: 10px;
+          font-style: italic;
+          color: #6c757d;
+          }
+          Header{
+          width : 100%;
+          }
+          .section {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          margin: 20px 0;
+          max-height: 80vh;
+          overflow-y: auto;
+          }
+          h1 {
+            text-align: center;
+            color: #5a189a;
+            margin-bottom: 20px;
+          }
+            h2{
+            color: #5a189a;
+            margin-bottom: 20px;
+            }
+          .content{
+          background-color: #fff;
+          padding: 15px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          border-left: 5px solid #5a189a;
+          }
+          .app {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0;
+          padding: 20px;
+          font-family: Arial, sans-serif;
+          background-color: #f9f5ff;
+          color: #240046;
+          }
+
+          h1 {
+          color: #5a189a;
+          }
+
+          .btn-group {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 20px;
+          }
+
+          .btn {
+          display: inline-flex;
+          align-items: center;
+          padding: 10px 20px;
+          border: none;
+          background-color: #5a189a;
+          color: white;
+          cursor: pointer;
+          font-size: 16px;
+          border-radius: 4px;
+          text-decoration: none;
+          transition: background-color 0.3s, transform 0.2s;
+          }
+
+          .btn:hover {
+          background-color: #7b2cbf;
+          transform: scale(1.05);
+          }
+
+          .btn-add-project {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 100;
+          background-color: #5a189a;
+          color: white;
+          font-size: 16px;
+          border-radius: 4px;
+          padding: 10px 20px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          }
+
+          .btn-add-project:hover {
+          background-color: #7b2cbf;
+          transform: scale(1.05);
+          }
+
+          .section {
+          text-align: left;
+          margin-top: 20px;
+          width: 100%;
+          }
+
+          .content ul {
+          list-style-type: none;
+          padding: 0;
+          margib : 5px 0;
+          color: #333;
+          }
+
+          .content ul li {
+          background-color: #ffffff;
+          padding: 10px;
+          margin: 5px 0;
+          border-radius: 4px;
+          transition: transform 0.2s;
+          }
+
+          .content ul li:hover {
+          transform: scale(1.03);
+          }
+
+         .form-section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto; /* This centers the form horizontally */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; /* This centers the content inside the form */
+          }
+
+
+          .form-group {
+          margin-bottom: 15px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          }
+
+          .form-group label {
+          margin-bottom: 5px;
+          font-weight: bold;
+          }
+
+          .form-group input,
+          .form-group select,
+          .form-group textarea {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          }
+
+          .form-section button {
+          width: 100%;
+          padding: 10px;
+          background-color: #5a189a;
+          color: white;
+          border: none;
+          font-size: 16px;
+          border-radius: 4px;
+          transition: background-color 0.3s, transform 0.2s;
+          }
+
+          .form-section button:hover {
+          background-color: #7b2cbf;
+          transform: scale(1.03);
+          }
+
+          .btn-back {
+          background-color: #6c757d;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 4px;
+          position: fixed;
+          bottom: 20px;
+          left: 20px;
+          }
+
+          .btn-back:hover {
+          background-color: #868e96;
+          transform: scale(1.05);
+          }
+`}</style>

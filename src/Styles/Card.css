@@ -1,0 +1,23 @@
+.column {
+    float: left;
+    width: 250px;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(129, 53, 136);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    height: 200px;
+}
+
+.caption {
+    padding: 20px;
+}
+.column:hover {
+    transform: scale(1.1);
+}
+img {
+    margin-top: 20px;
+    vertical-align: middle;
+}
